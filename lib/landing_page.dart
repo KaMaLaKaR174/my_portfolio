@@ -56,7 +56,7 @@ class LandingPage extends StatelessWidget {
 //                      _launchEmail("mucharlakamalakar@gmail.com","Through Portfolio","Hey!! Want to connect with you!");
 //                    },
 //                    child: Image.asset("assets/gmail.png",height: 30,width: 30,)),
-              //https://www.facebook.com/kamalakar.mucharla
+
 //                SizedBox(width: 12,),
                 GestureDetector(
                     onTap: (){
@@ -91,6 +91,13 @@ class LandingPage extends StatelessWidget {
                   ),
                 ),
                 SizedBox(width: 12,),
+                GestureDetector(
+                  onTap: (){
+                    _launchURL("https://www.facebook.com/kamalakar.mucharla");
+                  },
+                  child: Image.asset("assets/facebook.png",height: 22,width: 22,
+                  ),
+                ),
               ],
             ),
             SizedBox(height: 15,),
