@@ -104,6 +104,7 @@ class LandingPage extends StatelessWidget {
             RaisedButton(onPressed:(){
               _launchURL("https://drive.google.com/file/d/1YSa23y9UO6CCe_zDuHFjdU0RnG7EG2aL/view?usp=sharing");
             } ,
+              
 
               padding: EdgeInsets.all(0),
               shape: RoundedRectangleBorder(
